@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.png' />
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0, minimum-scale = 1, maximum-scale = 1.0 , user-scalable = no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>COLLEGE MANAGEMENT SYSTEM</title>
+    <link href="Content/css/font-awesome.css" rel="stylesheet" />
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css' />
+    <!-- Bootstrap core CSS -->
+    <link href="Content/css/bootstrap.css" rel="stylesheet" />
+    <link href="Content/css/style.css" rel="stylesheet" />
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="Scripts/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        ////Checkbox focus script
+        function chckboxFocus(event, fromEvent) {
+            var nKeyCode = event.keyCode ? event.keyCode : event.which;
+
+            if (nKeyCode == 13 || nKeyCode == 32) {
+
+                var ctrlId = fromEvent.parent("div").find("input").attr('id');
+
+                if ($('[id$=' + ctrlId + ']').prop('checked')) {
+
+                    $('[id$=' + ctrlId + ']').removeAttr('checked');
+                }
+                else {
+                    $('[id$=' + ctrlId + ']').prop('checked', 'true');
+                }
+            }
+        }
+
+    </script>
+
+    <script>
+        function login() 
+        {
+            var id = document.getElementById("username").value;
+            var pass = document.getElementById("password").value;
+            if (id == "admin" && pass = "admin")
+            {
+                window.location.href = "Index.html?city="+value;
+            }
+            else if (id == "employee" && pass = "employee")
+            {
+                window.location.replace(admin.html)
+            }
+    }
+</script>
+    <!-- Login Form Start here--->
+    <div class="loginwrap">
+        <header class="logo">
+            <p style="font-size: 24px;"><b>College Management System</b></p>
+        </header>
+        <section class="loginblock">
+            <p style="font-size: 18px; margin-left: 90px;"><b>Login to your account</b></p>
+            <h2></h2>
+            <br />
+            <div class="clearfix"></div>
+            <form role="form" class="loginform" action="Index.html">
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon"><i class="fa fa-user" style="background-color: #1461ab;"></i></div>
+                        <input type="text" id="Username" name="UserName" autocomplete="off"   placeholder="UserID"  class="form-control" required/> 
+                       <!-- <input id="txtUserID" type="text" autocomplete="off" placeholder="UserID" class="form-control" />-->
+                    </div>                   
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon"><i class="fa fa-key"></i></div>
+                     <!--   <input type="text" id="Password" name="Password" autocomplete="off" placeholder="Password" class="form-control" required/>-->
+                     <!--   <input id="txtPassword" type ="password" autocomplete="off" placeholder="Password" class="form-control" />-->
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="pull-left left-mobile">
+                        <input runat="server" type="checkbox" name="option" id="chkRememberMe" />
+                        <label for="chkRememberMe" class="pointerLabel" onkeypress="chckboxFocus(event,$(this));" tabindex="3"><span class="fa-stack"><i class="fa fa-square fa-stack-1x millnet-green"></i><i class="fa fa-check fa-stack-1x"></i></span>Keep me signed in </label>
+                    </div>
+                   <input type="submit" value="Login" class="btn pull-right btn-green left-mobile" />
+                    <!--<button runat="server" id="btnLogin" type="submit" validationgroup="vgLogin" tabindex="4" class="btn pull-right btn-green left-mobile" onserverclick="btnLogin_Click"><i class="fa fa-sign-in"></i>Log In </button>-->
+                </div>
+                <div class="clearfix"></div>
+                <div class="form-row full-width" style="padding: 0">
+                    <div id="divMessage" runat="server" class="bg-success" visible="false">
+                        <label id="lblMessage" visible="false"></label>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <a href="#" class="forgotpassword" tabindex="5"><i class="fa fa-question-circle"></i>Help: I forgot my password </a>
+    </div>
+    <!-- Login Form End here--->
+</body>
+</html>

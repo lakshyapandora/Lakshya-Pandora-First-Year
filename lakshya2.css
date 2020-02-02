@@ -1,0 +1,313 @@
+@import "https://fonts.googleapis.com/css?family=lato:1001";
+.header{
+    
+    width:100%;
+    background:radial-gradient(#E73E7C,#23A6D5,rgb(216, 102, 9),#23D5AB);
+    height:200px;
+    text-align:center;
+    font-size:40px;
+    font-family:"lato",arial,sans-sarif;
+    padding-top:50px;
+  padding-bottom:50px;
+}
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+.engineering{
+    background:url(engineering1.jpg);
+    height:500px;
+    background-size: cover;
+   color:white;
+    font-size:32px;
+    padding-top:20px;
+
+}
+.row4{
+    border-bottom:3px solid rgb(207, 32, 32);
+    text-decoration:underline solid gold;
+}
+.medical{
+    background:url(medical1.jpg);
+    height:400px;
+    background-size: cover;
+
+   
+}
+.mrow1{
+    font-size:32px;
+    padding-top:20px;
+    color:white;
+    text-align:center;
+    font-style:display;
+    text-decoration:underline solid gold;
+    border-bottom:3px solid rgb(207, 32, 32);
+}
+.btn{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius:10px;
+  font-size:38px;
+  text-decoration:none;
+  }
+  .btn:hover {
+    color:yellow;
+    background-color:rgb(240, 8, 46);
+  }
+
+  .signup{
+    background-color:#239b76;
+    margin-top:20px;
+    margin-left:80px;
+  }
+  
+
+  .facebook{
+    background-color:#3b5998;
+    margin-left:300px;
+    margin-top:20px;
+
+  }
+  
+  .twitter{
+    background-color:#55acee;
+    margin-left:400px;
+  }
+  
+  
+  
+  .btn-wrapper{
+    margin-top: 10px;
+  margin-bottom: 10px;
+  }
+  
+  /* Add CSS for <p> tags inside btn-wrapper */
+  
+  .v{
+      margin-top:40px;
+  }
+  .v{
+    background-color:#239b76;
+    margin-top:40px;
+    margin-left:80px;
+  }
+  
+
+  .s{
+    background-color:#3b5998;
+    margin-left:400px;
+    margin-top:40px;
+
+  }
+  
+  .m{
+    background-color:#55acee;
+    margin-top:40px;
+    margin-left:410px;
+  }
+  .row2{
+      margin-top:40px;
+      font-size:40px;
+      text-align:center;
+      color:rgba(37, 196, 31, 0.999);
+      font-family:comic sans ms; 
+    
+  }
+  .btn{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  }
+
+  .signup1{
+    background-color:#239b76;
+    margin-top:20px;
+    margin-left:90px;
+  }
+  
+
+  .facebook1{
+    background-color:#3b5998;
+    margin-left:428px;
+    margin-top:20px;
+
+  }
+  
+  .twitter1{
+    background-color:#55acee;
+    margin-left:450px;
+  }
+  
+  
+  
+  .btn-wrapper{
+    margin-top: 10px;
+  margin-bottom: 10px;
+  }
+  
+  /* Add CSS for <p> tags inside btn-wrapper */
+  
+  .v{
+      margin-top:40px;
+  }
+  .signup2{
+    background-color:#239b76;
+    margin-top:40px;
+    margin-left:390px;
+  }
+  
+
+  .facebook2{
+    background-color:#3b5998;
+    margin-left:400px;
+    margin-top:40px;
+
+  }
+  .mrow3{
+    margin-top:40px;
+    font-size:32px;
+    text-align:center;
+    color:rgba(243, 30, 119, 0.973);
+    font-family:comic sans ms; 
+}
+.commerce{
+
+    background:url(commerce.jpg);
+    background-size:cover;
+    height:400px;
+    width:100%;
+   
+
+}
+.crow1{
+    font-size:32px;
+    padding-top:20px;
+    color:white;
+    text-align:center;
+    text-decoration:underline solid gold;
+    border-bottom:3px solid rgb(207, 32, 32);
+
+}
+  
+.signup3{
+    background-color:#239b76;
+    margin-top:20px;
+    margin-left:90px;
+  }
+  
+
+  .facebook3{
+    background-color:#3b5998;
+    margin-left:428px;
+    margin-top:20px;
+
+  }
+  
+  .twitter3{
+    background-color:#55acee;
+    margin-left:450px;
+  }
+  .crow2{
+    margin-top:40px;
+    font-size:32px;
+    text-align:center;
+    color:rgba(248, 29, 21, 0.986);
+    font-family:comic sans ms; 
+}
+  
+  
+  
+  
+ 
+  
+
+  .facebook4{
+    background-color:#3b5998;
+    margin-left:400px;
+    margin-top:40px;
+
+  }
+  .signup4{
+    background-color:#239b76;
+    margin-top:40px;
+    margin-left:390px;
+  }
+  .footer{
+    background:radial-gradient(#333,#000);
+    position:absolute;
+    width:100%;
+ position:absolute;
+ 
+ height:320px;
+ color:white;
+}
+.footer1{
+float:left;
+font-size:40px;
+position:absolute;
+padding-top:80px;
+padding-left:40px;
+}
+.footer2 {
+float:right;
+padding-right:40px;
+font-size:32px;
+}
+.footer2 li{
+padding-top:20px;
+padding-bottom:10px;
+}
+.btn{
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 24px;
+padding-right: 24px;
+color: white;
+display: inline-block;
+opacity: 0.8;
+}
+
+
+
+.signup9{
+background-color:#239b76;
+margin-top:40px;
+margin-left:650px;
+}
+
+
+.facebook9{
+background-color:#3b5998;
+margin-left:400px;
+margin-top:70px;
+}
+
+.twitter9{
+background-color:#55acee;
+margin-top:70px;
+margin-left:80px;
+}
+
+
+
+.btn-wrapper{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+/* Add CSS for <p> tags inside btn-wrapper */
+.btn-wrapper p{
+margin-top: 20px;
+margin-bottom: 10px;
+}
+  
